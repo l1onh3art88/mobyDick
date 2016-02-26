@@ -1,0 +1,62 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//Navbar---------------------
+.nav>li{
+  padding: 0 6em;
+}
+.navbar{
+  background: white;
+  opacity: .6;
+  margin-bottom:0px;
+  position: fixed;
+  width: 100%;
+  border-radius: 0px;
+  margin-top:-50px;
+}
+
+
+
+//Home Page------------------
+#home{
+  margin-top:50px;
+  height:100vh;
+  background-image: url('BigOcean.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.title{
+  font-size: 8em;
+  color: white;
+  text-align: center;
+  font-family: ubuntu;
+}
+//Bio page------------------
+#bio{
+  height: 40vh;
+  background-color:rgba(0,0,0,0.5);
+}
+#bio p{
+  width: 50vw;
+  margin: 7em auto;
+}
+.userImg{
+  position: absolute;
+  left: 45vw;
+  margin-top: 2vh;
+}
+//Skills page
+#skills{
+  height: 60vh;
+}
+#skills1{
+  margin-top:2em;
+}
+.reqs li{
+  font-size: 25px;
+}
+#skills2{
+  margin-left:11em;
+  margin-top:2em;
+}
